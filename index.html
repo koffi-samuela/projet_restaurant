@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.google.com/specimen/Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <link href="avis.css" rel="stylesheet" > -->
+    <link rel="stylesheet" href="MP_bonapp.css">
+    <title>Bon appétit !</title>
+  </head>
+  <header>
+    <div class="container-nav fixed-top">
+      <!--modification du nom en "container-nav" pour plus de cohérence-->
+      <nav id="nav-bg" class="navbar-expand-lg navbar">
+        <a class="navbar-brand" href="#">Bon appétit</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto p-1 pl-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">LA CARTE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gal">GALERIE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#avis">AVIS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plats-moments">Actuellement</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <main>
+      <section class="section1">
+        <h1>Bon appetit !</h1>
+      </section>
+      <section class="section2" id="plats-moments">
+        <h2>Nos plats du moment !</h2>
+        <div class="caroussel">
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="4"
+              ></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../HTML/assets/ressources/food_10_dark.jpg"
+                  alt="Canard"
+                  class="d-block"
+                  style="width: 100%"
+                />
+                <div class="carousel-caption">
+                  <h3>Magret de canard</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../HTML/assets/ressources/food_4_dark.jpg"
+                  alt="Burger"
+                  class="d-block"
+                  style="width: 100%"
+                />
+                <div class="carousel-caption">
+                  <h3>Burger</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../HTML/assets/ressources/food_1_dark.jpg"
+                  alt="Entrecote"
+                  class="d-block"
+                  style="width: 100%"
+                />
+                <div class="carousel-caption">
+                  <h3>Entrecôte</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../HTML/assets/ressources/food_1_dark.jpg"
+                  alt="Entrecote"
+                  class="d-block"
+                  style="width: 100%"
+                />
+                <div class="carousel-caption">
+                  <h3>Entrecôte</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../HTML/assets/ressources/food_1_dark.jpg"
+                  alt="Entrecote"
+                  class="d-block"
+                  style="width: 100%"
+                />
+                <div class="carousel-caption">
+                  <h3>Entrecôte</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+    
+
+<section class="section4" id="menu">
+  <h4>La carte</h4>
+  <div class="premier">
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="img-thumbnail border-0" src="../HTML/assets/ressources/food_1_dark.jpg" width="100%">
+        </div>
+      <div class="col-lg-3">
+          <h3> 50,18€</h3>
+          <ul>
+              <div class="nom">
+                <p>Entrecôte</p>
+              </div> 
+            <div class="description">  
+              <P>L'Entrecôte le classique pour les amateurs de viande accompagnements aux choix accompagné de la sauce du chef</P>
+            </div>
+          </ul>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-thumbnail border-0" src="../HTML/assets/ressources/food_2_dark.jpg" width="100%">
+      </div>
+      <div class="col-lg-3">
+        <h3> 15,99€</h3>
+        <ul>
+            <div class="nom">
+              <p>Sauce du chef</p>
+            </div> 
+            <div class="description"> 
+              <P>La sauche du chef et le secret du restaurant mais elle saura mettre vos plats en valeurs</P>
+            </div>
+         </ul>
+      </div>
+      
+    </div>
+  </div>
+<div class="deuxieme">
+  <div class="row">
+    <div class="col-lg-3">
+      <img class="img-thumbnail border-0" src="../HTML/assets/ressources/food_7_dark.jpg" width="100%">
+    </div>
+    <div class="col-lg-3">
+      <h3>35,99€</h3>
+      <ul>
+        <div class="nom">
+          <p>Viande de Boeuf</p>
+        </div> 
+        <div class="description">  
+          <P>La viande de boeuf est fraiche et cuite a la perfection et ses accompagnements choisis a la perfection </P>
+        </div>
+       </ul>
+      </div>
+      <div class="col-lg-3">
+        <img class="img-thumbnail border-0" src="../HTML/assets/ressources/food_4_dark.jpg" width="100%">
+        </div>
+      <div class="col-lg-3">
+        <h3>25,60€</h3>
+        <ul>
+          <div class="nom">
+            <p>BURGER</p> 
+          <div class="description">  
+            <p>Le burger de chez Bon appétit est fais pour vous avec sa viande de boeuf fraiche et ses légumes de saison </p>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div class="troisieme">
+  <div class="row">
+    <div class="col-lg-3">
+      <img class="img-thumbnail border-0" src="../HTML/assets/ressources/food_5_dark.jpg" width="100%">
+    </div>
+    <div class="col-lg-3">
+      <h3> 28,99€</h3>
+      <ul>
+        <div class="nom">
+          <p>Coquilles Saint-Jacques</p>
+        </div> 
+        <div class="description"> 
+          <P>Les coquilles Saint-Jacques sont un incontournables de la maison parfait pour une entrée</P>
+        </div>
+      </ul>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-thumbnail border-0" src="../HTML/assets/ressources/food_6_dark.jpg" width="100%">
+    </div>
+    <div class="col-lg-3">
+      <h3> 30€</h3>
+      <ul>
+        <div class="nom">
+          <p>Poisson</p>
+        </div> 
+        <div class="description">
+          <P>Le poisson frais de la région est idéal pour un plat légé et somptueux idéal pour une petite faim</P>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+<section class="section4" id="contact">
+  <div class="container-fluid">
+    <!-- Forulaire -->
+    <div
+      id="formulaire"
+      style="background-image: url('../HTML/assets/ressources/testimonal_background_dark.jpg');height: 100%;margin: 0; ">
+      <div id="Réservation"><h5>Réservation</h5></div>
+      <form>
+        <!-- 1ère row -->
+        <div class="row was-validated">
+          <!-- Nom -->
+          <div class="col-xl-6 col-lg-5 col-md-4">
+            <label for="validationname" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationname"
+              name="validationname"
+              placeholder="Nom"
+              pattern="[a-zA-ZàâæçéèêëîïôœùûüÿÀÂÆÇnÉÈÊËÎÏÔŒÙÛÜŸ-]+"
+              required
+            />
+          </div>
+          <!-- Prénom -->
+          <div class="col-xl-6 col-lg-5 col-md-4">
+            <label for="validationsurname" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationsurname"
+              name="validationsurname"
+              placeholder="Prénom"
+              pattern="[a-zA-ZàâæçéèêëîïôœùûüÿÀÂÆÇnÉÈÊËÎÏÔŒÙÛÜŸ-]+"
+              required
+            />
+          </div>
+        </div>
+
+        <!-- 2ème row -->
+        <div class="row">
+          <!-- Numéro de téléphone -->
+          <label for="validationphone" class="form-label"></label>
+          <div class="col-xl-6 col-lg-5 col-md-4 was-validated">
+            <input
+              type="number tel"
+              class="form-control"
+              id="validationphone"
+              name="validationphone"
+              placeholder="Numéro de téléphone"
+              pattern="[0-9]{10}"
+              required
+            />
+          </div>
+          <!-- Nombre de personnes -->
+          <div class="col-xl-6 col-lg-5 col-md-4">
+            <select class="form-select" aria-label="people number">
+              <option selected value="">Combien de personnes ?</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 3ème row -->
+        <div class="row">
+          <!-- Date -->
+          <div class="col-xl-6 col-lg-5 col-md-4" id="date">
+            <input
+              class="form-select"
+              type="date"
+              pattern="(?:((?:0[1-9]|1[0-9]|2[0-9])\/(?:0[1-9]|1[0-2])|(?:30)\/(?!02)(?:0[1-9]|1[0-2])|31\/(?:0[13578]|1[02]))\/(?:19|20)[0-9]{2})"
+              required
+            />
+          </div>
+          <!-- Emplacement -->
+          <div class="col-xl-4 col-lg-8 col-md-3">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="emplacement"
+                id="intérieur"
+              />
+              <label class="form-check-label" for="intérieur">
+                En intérieur
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="emplacement"
+                id="extérieur"
+                checked
+              />
+              <label class="form-check-label" for="extérieur">
+                En extérieur
+              </label>
+            </div>
+          </div>
+          <!-- Anniversaire -->
+          <div class="col-xl-2 col-lg-4 col-md-6">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="anniversaire"
+              />
+              <label class="form-check-label" for="anniversaire">
+                Anniversaire
+              </label>
+            </div>
+          </div>
+          <center><br><div class="col-lg-12">
+            <button class="btn btn-outline-light" type="submit">Envoyer le formulaire</button>
+          </div></center>
+        </div>
+      </form>
+    </div>
+    <!-- Formulaire -->
+</section>
+<section class="galerie" id="gal">
+<h2>Galerie</h2>
+<div class="accordion">
+  <ul>
+    <li>
+      <div>
+        <a href="#">
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+ 
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+
+        </a>
+      </div>
+    </li>
+</div>
+
+</section>
+ 
+<section id="avis">
+<h2>Avis</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src="../HTML/assets/ressources/testimonial_1_dark.jpg"
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="nomfam">Louise</h5>
+
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star-half-alt fa-sm text-info"></i>
+                </li>
+              </ul>
+              <p class="mb-2">
+                <i class="fas fa-quote-left pe-2"></i>Le personnel est charmant et vous conseille très bien sur les vins qui s'harmonisent avec les plats. Les légumes rares sont à l'honneur et cuisinés avec "art" pour qu'ils révèlent toute leur saveur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src="../HTML/assets/ressources/testimonial_2_dark.jpg"
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="nomfam">Sylvie</h5>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+              </ul>
+              <p class="mb-2">
+                <i class="fas fa-quote-left pe-2"></i>Nous avons pris la tourte en plat unique c'est que du bonheur (frais, fin, généreux, avec une très belle présentation, vraiment en dehors des sentiers battus) même le café est présenté de façon originale!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-0">
+          <div class="card">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src="../HTML/assets/ressources/testimonial_3_dark.jpg"
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="nomfam">Teresa</h5>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="far fa-star fa-sm text-info"></i>
+                </li>
+              </ul>
+              <p class="mb-2">
+                <i class="fas fa-quote-left pe-2"></i>Un restaurant digne d'un grand chef! Les plats sont exquis... La patronne Valérie et Thierry (le Chef) sont très sympathiques et l'accueil y est chaleureux. 
+             </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+ 
+
+       <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+  
+    </main>
+    
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+          <!-- Section: Text -->
+
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Horaires</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a class="text-white">Du lundi au jeudi:</a>
+                  </li>
+                  <li>
+                    <p class="text-white">11h00-13h00 18h00-23h00</p>
+                  </li>
+                  <li>
+                    <a class="text-white">Du vendredi au dimanche:</a>
+                    <p class="text-white">11h00-13h00 18h00-1h00</p>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Le chef</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <img src="../HTML/assets/ressources/chef_dark.jpg" alt="Photo du chef" class="chef img-thumbnail img-fluid w-50">
+                  </li>
+                  <li>
+                    <img src="../HTML/assets/ressources/signature.png" alt="Signature du chef" class="img-fluid w-50">
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text">Adresse</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <p class="text-white">70 rue des jacobins 80000 Amiens</p>
+                  </li>
+                  <li>
+                    <a><h5 class="text" style="padding-top: 20px;">Téléphone</h5></a>
+                  </li>
+                  <li>
+                    <p class="text-white">09.00.00.00.00</p>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="facebook btn btn-outline-light btn-floating m-1" href="https://fr-fr.facebook.com/" role="button"
+        ><i class="fab fa-facebook-f"><img src="./assets/images/fb.png" alt="facebook"></i></a>
+
+          <!-- Discord -->
+          <a class="discord btn btn-outline-light btn-floating m-1" href="https://discord.com/" role="button"
+        ><i class="fab fa-facebook-f"><img src="./assets/images/discord.png" alt="discord"></i></a>
+
+          <!-- Instagram -->
+          <a class="instagram btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/?hl=fr" role="button"
+        ><i class="fab fa-facebook-f"><img src="./assets/images/insta.png" alt="instagram"></i></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2022 Copyright:
+          <a class="text-white" href="https://lamanu.fr/"
+            >La Manu</a
+
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+ </body>
+</html>

@@ -1,0 +1,368 @@
+html
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+    background-image: url(../HTML/assets/ressources/testimonal_background_dark.jpg);
+    background-size: cover;
+  }
+  h1{
+    justify-content: center;
+    color:white
+  }
+  
+  .container-nav{
+  
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    transition: .3s ease-in-out;
+    z-index: 10;
+    height: 6vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0;
+  
+  }
+  
+  .container-nav:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .navbar-brand{
+    color: red;
+    transition: .5s ease-in-out;
+    
+  }
+  
+  .navbar-brand:hover{
+    transform: scale(1.1);
+    color: white;
+    
+  }
+  
+  
+  .nav-link{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: .5s ease-in-out;
+    
+  }
+  
+  .nav-link:hover{
+    transform: scale(1.1);
+    color: white;
+  }
+  .section2{
+    background-image: url(../HTML/assets/revetement-adhesif-marbre-blanc-2-m-x-0-45-m.webp);
+    padding-bottom: 10vh;
+  }
+  .carousel{
+    width: 100vh;
+    justify-content: center;
+  }
+  .caroussel {
+    display: table;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .section2 h2{
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-caption{    
+    color: white;
+  }
+  
+  @font-face {
+    font-family: 'kaushan_script' ;
+    src: url(./Kaushan_Script/KaushanScript-Regular.ttf);
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  h2{
+    font-family: 'kaushan_script';
+  }
+  h1{
+    font-family: 'kaushan_script';
+    font-weight: 700;  
+  }
+  header{
+    font-family: 'kaushan_script';
+  }
+  h4{
+    font-family: 'kaushan_script';  
+  }
+  h3{
+    font-family: 'kaushan_script';    
+  }
+  h5{
+    font-family: 'kaushan_script'; 
+    font-size: xx-large;
+    text-align: center;
+  }
+  .container-fluid{
+    color: whitesmoke;
+    background-size: cover;
+    padding: 0;
+  }
+  .row{
+    color: whitesmoke;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin: 0;
+  }
+  #Réservation h2{
+    padding-top: 50px;
+    text-align: center;
+  }
+  #formulaire{
+    padding-bottom: 60px;
+    background-size: cover;
+  }
+  .chef{
+    border-radius: 50%;
+  }
+  .card {
+    border-radius: .7rem;
+  }
+  .col-lg-3 h4{
+    text-align:center;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .col-lg-3 h3{
+    position: relative;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, rgb(0, 0, 0), #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s  alternate-reverse infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  @keyframes animate {
+    0% {
+    background-position: -500%;
+    }
+    100% {
+    background-position: 500%; 
+    }
+  }
+  .nom p{
+    text-align: center;
+    font-weight: bold;
+    text-decoration:underline;
+    font-size:medium;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient( #000, #000, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s  forwards;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% 
+  {
+  background-position: -500%;
+  }
+  100% {
+  background-position: 0%; 
+  }
+  
+  }
+  .description p {
+    position: relative;
+    font-size: smaller;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #000, #000);
+    background-repeat: no-repeat;
+    background-size: 98%;
+    animation: animate 3s  forwards;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 0%; 
+  }
+  }
+  #menu h4{
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+    animation: pulse 6s alternate-reverse infinite;
+  }
+  .mb-2{
+    color: black;
+    font-family: 'kaushan_script';
+  }
+  .nomfam{
+    color: black;
+    font-family: 'kaushan_script';
+  }
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+  @import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+  h2 {
+  text-align: center;
+  font-family: 'kaushan_script';
+  color: black;
+  padding-top: 5vh;
+  }
+  
+  .accordion {
+  width: 100%;
+  max-width: 1080px;
+  height: 250px;
+  overflow: hidden;
+  margin: 50px auto;
+  }
+  .accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+  }
+  .accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+  }
+  .accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  }
+  .accordion ul li div a {
+  display: block;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+  }
+  .accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  }
+  .accordion ul li div a h2 {
+  font-family: Montserrat,sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+  }
+  .accordion ul li div a p {
+  top: 160px;
+  font-size: 13.5px;
+  }
+  .accordion ul li:nth-child(1) {
+  background-image: url("../HTML/assets/ressources/event_1_dark.jpg");
+  }
+  .accordion ul li:nth-child(2) {
+  background-image: url("../HTML/assets/ressources/food_9_dark.jpg") ;
+  }
+  .accordion ul li:nth-child(3) {
+  background-image: url("../HTML/assets/ressources/food_6_dark.jpg");
+  }
+  .accordion ul li:nth-child(4) {
+  background-image: url("../HTML/assets/ressources/cover_dark.jpg");
+  }
+  .accordion ul li:nth-child(5) {
+  background-image: url("../HTML/assets/ressources/food_7_dark.jpg");
+  }
+  .accordion ul:hover li {
+  width: 8%;
+  }
+  .accordion ul:hover li:hover {
+  width: 60%;
+  }
+  .accordion ul:hover li:hover a {
+  background: rgba(0, 0, 0, 0.4);
+  }
+  .accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  
+  @media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  
+  .accordion {
+    height: auto;
+  }
+  .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+  }
+  .about {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #666;
+  }
+  .about a {
+  color: blue;
+  text-decoration: none;
+  }
+  .about a:hover {
+  text-decoration: underline;
+  }
+  .galerie{
+    background-image: url(/HTML/assets/revetement-adhesif-marbre-blanc-2-m-x-0-45-m.webp);
+    padding-bottom: 10vh;
+  }
+  #avis{
+    background-color: #666;
+    padding-bottom: 5vh;
+  }
+  html{
+    margin: auto;
+  }
