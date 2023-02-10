@@ -6,7 +6,7 @@ html
     justify-content: center;
     width: auto;
     height: 100vh;
-    background-image: url(../HTML/assets/ressources/testimonal_background_dark.jpg);
+    background-image: url(../ressources/testimonal_background_dark.jpg);
     background-size: cover;
   }
   h1{
@@ -59,7 +59,7 @@ html
     color: white;
   }
   .section2{
-    background-image: url(../HTML/assets/revetement-adhesif-marbre-blanc-2-m-x-0-45-m.webp);
+    background-image: url(../ressources/testimonal_background_dark.jpg);
     padding-bottom: 10vh;
   }
   .carousel{
@@ -296,19 +296,19 @@ html
   font-size: 13.5px;
   }
   .accordion ul li:nth-child(1) {
-  background-image: url("../HTML/assets/ressources/event_1_dark.jpg");
+  background-image: url("../ressources/event_1_dark.jpg;)
   }
   .accordion ul li:nth-child(2) {
-  background-image: url("../HTML/assets/ressources/food_9_dark.jpg") ;
+  background-image: url("../ressources/food_9_dark.jpg") ;
   }
   .accordion ul li:nth-child(3) {
-  background-image: url("../HTML/assets/ressources/food_6_dark.jpg");
+  background-image: url("../ressources/food_6_dark.jpg");
   }
   .accordion ul li:nth-child(4) {
-  background-image: url("../HTML/assets/ressources/cover_dark.jpg");
+  background-image: url("../ressources/cover_dark.jpg");
   }
   .accordion ul li:nth-child(5) {
-  background-image: url("../HTML/assets/ressources/food_7_dark.jpg");
+  background-image: url("../ressources/food_7_dark.jpg");
   }
   .accordion ul:hover li {
   width: 8%;
@@ -356,7 +356,7 @@ html
   text-decoration: underline;
   }
   .galerie{
-    background-image: url(/HTML/assets/revetement-adhesif-marbre-blanc-2-m-x-0-45-m.webp);
+    background-image: url(/assets/ressources/th.jpg);
     padding-bottom: 10vh;
   }
   #avis{
