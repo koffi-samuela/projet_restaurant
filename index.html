@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/d23bb2aa48.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -64,117 +65,30 @@
       <section class="section1">
         <h1>Bon appetit !</h1>
       </section>
+      <div class="texte"><h2>Nos plats du moment !</h2></div>
       <section class="section2" id="plats-moments">
-        <h2>Nos plats du moment !</h2>
-        <div class="caroussel">
-          <div id="demo" class="carousel slide" data-bs-ride="carousel">
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="0"
-                class="active"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="3"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#demo"
-                data-bs-slide-to="4"
-              ></button>
+        <div class="components container">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/ressources/food_1_dark.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/ressources/food_1_dark.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/ressources/food_1_dark.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="./assets/ressources/food_10_dark.jpg"
-                  alt="Canard"
-                  class="d-block"
-                  style="width: 100%"
-                />
-                <div class="carousel-caption">
-                  <h3>Magret de canard</h3>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./assets/ressources/food_4_dark.jpg"
-                  alt="Burger"
-                  class="d-block"
-                  style="width: 100%"
-                />
-                <div class="carousel-caption">
-                  <h3>Burger</h3>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./assets/ressources/food_1_dark.jpg"
-                  alt="Entrecote"
-                  class="d-block"
-                  style="width: 100%"
-                />
-                <div class="carousel-caption">
-                  <h3>Entrecôte</h3>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./assets/ressources/food_1_dark.jpg"
-                  alt="Entrecote"
-                  class="d-block"
-                  style="width: 100%"
-                />
-                <div class="carousel-caption">
-                  <h3>Entrecôte</h3>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./assets/ressources/food_1_dark.jpg"
-                  alt="Entrecote"
-                  class="d-block"
-                  style="width: 100%"
-                />
-                <div class="carousel-caption">
-                  <h3>Entrecôte</h3>
-                </div>
-              </div>
-            </div>
-
-            <!-- Left and right controls/icons -->
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#demo"
-              data-bs-slide="prev"
-            >
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#demo"
-              data-bs-slide="next"
-            >
-              <span class="carousel-control-next-icon"></span>
-            </button>
-          </div>
         </div>
       </section>
     
@@ -283,7 +197,7 @@
     <!-- Forulaire -->
     <div
       id="formulaire"
-      style="background-image: url('./assets/ressources/testimonal_background_dark.jpg');height: 100%;margin: 0; ">
+      style="background-image: url('./assets/ressources/testimonal_background_dark.jpg');height:70vh;margin: 0; padding: 15px; ">
       <div id="Réservation"><h5>Réservation</h5></div>
       <form>
         <!-- 1ère row -->
@@ -415,44 +329,34 @@
 </section>
 <section class="galerie" id="gal">
 <h2>Galerie</h2>
-<div class="accordion">
-  <ul>
-    <li>
-      <div>
-        <a href="#">
-        </a>
+<div class="components2">
+    <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-    </li>
-    <li>
-      <div>
-        <a href="#">
-
-        </a>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/ressources/food_9_dark.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/ressources/food_9_dark.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/ressources/food_9_dark.jpg" class="d-block w-100" alt="...">
+        </div>
       </div>
-    </li>
-    <li>
-      <div>
-        <a href="#">
-
-        </a>
-      </div>
-    </li>
-    <li>
-      <div>
-        <a href="#">
- 
-        </a>
-      </div>
-    </li>
-    <li>
-      <div>
-        <a href="#">
-
-        </a>
-      </div>
-    </li>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 </div>
-
 </section>
  
 <section id="avis">
@@ -646,15 +550,15 @@
         <section class="mb-4">
           <!-- Facebook -->
           <a class="facebook btn btn-outline-light btn-floating m-1" href="https://fr-fr.facebook.com/" role="button"
-        ><i class="fab fa-facebook-f"><img src="./assets/images/fb.png" alt="facebook"></i></a>
+        ><iconify-icon icon="iconoir:facebook-tag" style="color: white;" width="40"></iconify-icon></a>
 
           <!-- Discord -->
           <a class="discord btn btn-outline-light btn-floating m-1" href="https://discord.com/" role="button"
-        ><i class="fab fa-facebook-f"><img src="./assets/images/discord.png" alt="discord"></i></a>
+        ><iconify-icon icon="line-md:discord" style="color: white; "  width="40"></iconify-icon></a>
 
           <!-- Instagram -->
           <a class="instagram btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/?hl=fr" role="button"
-        ><i class="fab fa-facebook-f"><img src="./assets/images/insta.png" alt="instagram"></i></a>
+        ><iconify-icon icon="line-md:instagram" style="color: white;" width="40"></iconify-icon></a>
         </section>
         <!-- Section: Social media -->
 

@@ -11,7 +11,8 @@ html
   }
   h1{
     justify-content: center;
-    color:white
+    color:white;
+    font-size: 100px;
   }
   
   .container-nav{
@@ -59,25 +60,25 @@ html
     color: white;
   }
   .section2{
-    background-image: url(../ressources/testimonal_background_dark.jpg);
-    padding-bottom: 10vh;
+    background-image: url(../ressources/R\ \(9\).jpg);
+    height: 70vh;
+    padding: 50px;
+    /* margin-top: 10px; */
   }
-  .carousel{
-    width: 100vh;
-    justify-content: center;
+  .texte h2{
+    text-align: center;
+    /* margin: 20px 0; */
+    margin-bottom: 10px;
   }
-  .caroussel {
-    display: table;
-    margin: 0 auto;
-    justify-content: center;
+  .components{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 20vh; */
   }
-  .section2 h2{
-    display: flex;
-    justify-content: center;
-  }
-  .carousel-caption{    
-    color: white;
-  }
+  /* .container{
+    margin-top: 10px;
+  } */
   
   @font-face {
     font-family: 'kaushan_script' ;
@@ -225,121 +226,35 @@ html
   color: black;
   padding-top: 5vh;
   }
-  
-  .accordion {
-  width: 100%;
-  max-width: 1080px;
-  height: 250px;
-  overflow: hidden;
-  margin: 50px auto;
-  }
-  .accordion ul {
-  width: 100%;
-  display: table;
-  table-layout: fixed;
-  margin: 0;
-  padding: 0;
-  }
-  .accordion ul li {
-  display: table-cell;
-  vertical-align: bottom;
-  position: relative;
-  width: 16.666%;
-  height: 250px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  transition: all 500ms ease;
-  }
-  .accordion ul li div {
-  display: block;
-  overflow: hidden;
-  width: 100%;
-  }
-  .accordion ul li div a {
-  display: block;
-  height: 250px;
-  width: 100%;
-  position: relative;
-  z-index: 3;
-  vertical-align: bottom;
-  padding: 15px 20px;
-  box-sizing: border-box;
-  color: #fff;
-  text-decoration: none;
-  font-family: Open Sans, sans-serif;
-  transition: all 200ms ease;
-  }
-  .accordion ul li div a * {
-  opacity: 0;
-  margin: 0;
-  width: 100%;
-  text-overflow: ellipsis;
-  position: relative;
-  z-index: 5;
-  white-space: nowrap;
-  overflow: hidden;
-  -webkit-transform: translateX(-20px);
-  transform: translateX(-20px);
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
-  }
-  .accordion ul li div a h2 {
-  font-family: Montserrat,sans-serif;
-  text-overflow: clip;
-  font-size: 24px;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-  top: 160px;
-  }
-  .accordion ul li div a p {
-  top: 160px;
-  font-size: 13.5px;
-  }
-  .accordion ul li:nth-child(1) {
-  background-image: url("../ressources/event_1_dark.jpg;)
-  }
-  .accordion ul li:nth-child(2) {
-  background-image: url("../ressources/food_9_dark.jpg") ;
-  }
-  .accordion ul li:nth-child(3) {
-  background-image: url("../ressources/food_6_dark.jpg");
-  }
-  .accordion ul li:nth-child(4) {
-  background-image: url("../ressources/cover_dark.jpg");
-  }
-  .accordion ul li:nth-child(5) {
-  background-image: url("../ressources/food_7_dark.jpg");
-  }
-  .accordion ul:hover li {
-  width: 8%;
-  }
-  .accordion ul:hover li:hover {
-  width: 60%;
-  }
-  .accordion ul:hover li:hover a {
-  background: rgba(0, 0, 0, 0.4);
-  }
-  .accordion ul:hover li:hover a * {
-  opacity: 1;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
+  #gal .components2{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   
   @media screen and (max-width: 600px) {
   body {
     margin: 0;
   }
-  
-  .accordion {
-    height: auto;
+  h1{
+    font-size: 40px;
   }
-  .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
-    position: relative;
-    display: table;
-    table-layout: fixed;
+  .section2{
+    height: 30vh;
+  }
+  
+  
+  #gal .components2{
     width: 100%;
-    -webkit-transition: none;
-    transition: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   }
   .about {
