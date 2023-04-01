@@ -147,10 +147,10 @@ html
   }
   .col-lg-3 h3{
     position: relative;
-    font-size: 60px;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background: linear-gradient(90deg, rgb(0, 0, 0), #fff, #000);
+    background: linear-gradient(90deg, rgb(0, 0, 0), #000000, #000);
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 3s  alternate-reverse infinite;
@@ -175,7 +175,7 @@ html
     letter-spacing: 1px;
     background: linear-gradient( #000, #000, #000);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 90%;
     animation: animate 3s  forwards;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -192,15 +192,10 @@ html
   
   }
   .description p {
+    color: black;
     position: relative;
     font-size: smaller;
     text-transform: uppercase;
-    background: linear-gradient(90deg, #000, #000, #000);
-    background-repeat: no-repeat;
-    background-size: 98%;
-    animation: animate 3s  forwards;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
   
   @keyframes animate {
@@ -248,7 +243,7 @@ html
     font-size: 40px;
   }
   .section2{
-    height: 55vh;
+    height: 35vh;
   }
   
   
